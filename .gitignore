@@ -1,14 +1,8 @@
-```text
 __pycache__/
 *.py[cod]
 .venv/
 venv/
 .env
-
-# Generated results
+.ipynb_checkpoints/
 results/*.joblib
 results/*.pkl
-
-# Python and notebook checkpoints
-.ipynb_checkpoints/
-```
