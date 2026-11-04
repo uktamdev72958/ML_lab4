@@ -1,0 +1,12 @@
+{
+    "baseline_accuracy": 0.8539548215382515,
+    "baseline_f1_score": 0.6601016518424396,
+    "training_rows_after_duplicate_removal": 34165,
+    "testing_rows": 14653,
+    "training_duplicates_removed": 24,
+    "sha256_processed_dataset": "fe9d1a074e1638f07293817bb6b5f26fd723c4be742dc8359a90268ccb9a3e9e",
+    "engineered_accuracy": 0.8577765645260357,
+    "engineered_f1_score": 0.6696258719086874,
+    "accuracy_change": 0.003821742987784149,
+    "f1_score_change": 0.009524220066247757
+}

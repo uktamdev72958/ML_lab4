@@ -1,0 +1,37 @@
+dataset:
+  name: adult
+  version: 2
+  source: OpenML
+  expected_rows: 48842
+  expected_columns: 15
+  target_column: class
+
+split:
+  test_size: 0.30
+  random_state: 42
+  stratify: true
+
+preprocessing:
+  numerical_imputation: median
+  categorical_imputation: most_frequent
+  outlier_lower_quantile: 0.01
+  outlier_upper_quantile: 0.99
+  scale_numerical_features: true
+  encode_categorical_features: true
+
+feature_engineering:
+  enabled: true
+  features:
+    - capital_net
+    - hours_per_age
+
+model:
+  name: LogisticRegression
+  max_iter: 1000
+  random_state: 42
+
+evaluation:
+  metrics:
+    - accuracy
+    - f1_score
+  positive_label: ">50K"

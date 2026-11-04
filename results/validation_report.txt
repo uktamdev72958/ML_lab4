@@ -1,0 +1,45 @@
+ADULT DATASET VALIDATION REPORT
+========================================
+
+Rows: 48842
+Columns: 15
+
+DATA TYPES
+----------------------------------------
+age                  int64
+workclass         category
+fnlwgt               int64
+education         category
+education-num        int64
+marital-status    category
+occupation        category
+relationship      category
+race              category
+sex               category
+capital-gain         int64
+capital-loss         int64
+hours-per-week       int64
+native-country    category
+class             category
+
+MISSING VALUES
+----------------------------------------
+age                  0
+workclass         2799
+fnlwgt               0
+education            0
+education-num        0
+marital-status       0
+occupation        2809
+relationship         0
+race                 0
+sex                  0
+capital-gain         0
+capital-loss         0
+hours-per-week       0
+native-country     857
+class                0
+
+DUPLICATE ROWS
+----------------------------------------
+Exact duplicate rows: 52

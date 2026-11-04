@@ -1,0 +1,7 @@
+{
+    "random_sample_size": 50,
+    "manual_review_sample_size": 50,
+    "conflicting_feature_groups": 5,
+    "label_column": "class",
+    "review_status": "Manual verification required"
+}
